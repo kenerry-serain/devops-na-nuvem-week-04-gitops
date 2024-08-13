@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: backend
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: backend
+    spec:
+      containers:
+      - image: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
+        name: backend
+        resources:
+          limits:
+            cpu: 500m
+          requests:
+            cpu: 200m
