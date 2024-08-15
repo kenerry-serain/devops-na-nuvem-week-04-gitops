@@ -6,11 +6,11 @@ resources:
 - backend/hpa.yml
 - frontend/deployment.yml
 - frontend/service.yml
+
 images:
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
-  newTag: latest
-
+  newTag: 15f5aa52500228aafc0948e7eaec6ea4fc6a1b06
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newTag: latest
