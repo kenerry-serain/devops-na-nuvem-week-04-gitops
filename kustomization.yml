@@ -14,4 +14,4 @@ images:
   newTag: 2b3fe941351d6f90b3bb80a06d1a056a4cf3adf1
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
-  newTag: latest
+  newTag: 2b3fe941351d6f90b3bb80a06d1a056a4cf3adf1
