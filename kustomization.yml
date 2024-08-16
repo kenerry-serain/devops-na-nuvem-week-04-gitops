@@ -7,12 +7,12 @@ resources:
 - frontend/deployment.yml
 - frontend/service.yml
 - ingress.yml
-- argocd/application.yml
+
 images:
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/backend
-  newTag: v3
+  newTag: 1c62918337e7f6412da7bed61d009c0012e03b44
   
 - name: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
   newName: 968225077300.dkr.ecr.us-east-1.amazonaws.com/devops-na-nuvem-week/production/frontend
-  newTag: latest
+  newTag: 1c62918337e7f6412da7bed61d009c0012e03b44
